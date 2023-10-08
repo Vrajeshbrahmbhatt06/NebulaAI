@@ -1,0 +1,120 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I assist you with your space questions?",
+        "Hi there! Feel free to ask me anything about space.",
+        "Greetings! I'm here to answer your space-related inquiries."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Farewell"],
+      "responses": [
+        "Goodbye! If you have more space questions in the future, don't hesitate to return.",
+        "Farewell! Have a stellar day!",
+        "See you later! Keep looking up at the stars."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome! Feel free to ask more space questions anytime.", "No problem! Happy to help with your space inquiries."]
+    },
+    {
+      "tag": "space_facts",
+      "patterns": [
+        "Tell me an interesting space fact.",
+        "Give me a space fact.",
+        "Share some space trivia.",
+        "Tell me something cool about space."
+      ],
+      "responses": [
+        "Sure, here's a space fact: The Sun is so large that over 1 million Earths could fit inside it!",
+        "Here's a fascinating space fact: Space is completely silent because there's no air to carry sound waves.",
+        "Did you know that the Milky Way galaxy is estimated to contain over 100 billion stars?",
+        "Here's another space fact: The largest volcano in the solar system is Olympus Mons on Mars."
+      ]
+    },
+    {
+      "tag": "planets",
+      "patterns": [
+        "Tell me about the planets in our solar system.",
+        "What are the names of the planets?",
+        "Can you describe a planet?"
+      ],
+      "responses": [
+        "Our solar system has eight planets, including Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",
+        "Sure, here are some details about Earth: It's the third planet from the Sun and the only one known to support life."
+      ]
+    },
+    {
+      "tag": "astronomy",
+      "patterns": [
+        "What is astronomy?",
+        "Tell me about astronomy.",
+        "Explain the study of the universe."
+      ],
+      "responses": [
+        "Astronomy is the scientific study of celestial objects such as stars, planets, comets, galaxies, and the universe as a whole.",
+        "Astronomy is the branch of science that explores the vastness of space, including the study of stars, galaxies, and the cosmos."
+      ]
+    },
+    {
+      "tag": "moon",
+      "patterns": [
+        "Tell me about the Moon.",
+        "What's interesting about our Moon?",
+        "Can you describe the Moon's surface?"
+      ],
+      "responses": [
+        "The Moon is Earth's only natural satellite. It's about 1/6th the size of Earth and has a barren, rocky surface.",
+        "The Moon has no atmosphere, which means there's no weather or wind on its surface."
+      ]
+    },
+    {
+      "tag": "space_exploration",
+      "patterns": [
+        "Tell me about space exploration.",
+        "What's the history of space exploration?",
+        "Who were the first astronauts?"
+      ],
+      "responses": [
+        "Space exploration is the investigation of outer space through the use of space technology. It has led to many discoveries about our universe.",
+        "The first humans to journey into space were Yuri Gagarin and Alan Shepard, who made their historic flights in 1961."
+      ]
+    },
+    {
+      "tag": "black_holes",
+      "patterns": [
+        "What are black holes?",
+        "Tell me about the concept of black holes.",
+        "Explain how black holes form."
+      ],
+      "responses": [
+        "Black holes are regions in space where gravity is so strong that nothing, not even light, can escape from them.",
+        "Black holes are formed from the remnants of massive stars that have undergone gravitational collapse."
+      ]
+    },
+    {
+      "tag": "nebulas",
+      "patterns": [
+        "What are nebulas?",
+        "Tell me about the different types of nebulas.",
+        "Explain the role of nebulas in star formation."
+      ],
+      "responses": [
+        "Nebulas are vast clouds of gas and dust in space. They come in various shapes and sizes and are often sites of star formation.",
+        "There are emission nebulas, reflection nebulas, and dark nebulas. They play a crucial role in the birth of stars."
+      ]
+    }
+  ]
+}
